@@ -1,0 +1,65 @@
+/*
+
+- can make user select the drink they want before the money is take.
+
+- use radio buttons for forum.
+
+- 2 forms (first takes in the money then the 2nd lets you pick the soda with the amount they put in.)
+
+Create PHP scripts and data files to replicate the functions of a basic soda machine. Use the following parameters and options within your soda machine.
+
+ 
+
+
+Products Sold:
+
+ 
+
+
+            Name                Price            Start Level Qty
+
+    Dr. Salty Drink              $0.75              7
+    Lemony Dew Soda              $0.55              2
+    Choco Ru Splash              $1.00              5
+    Eye Opener Energy            $0.35              6
+    CHC Mystery Drink            $0.25              3
+
+All drinks should refill their qty to the start level after every 15 soda purchases.
+
+ 
+
+
+ 
+
+
+Default Coin Load {Used for giving change}:
+
+ 
+
+
+    Nickels           Qty-5
+    Dimes             Qty-6
+    Quarters         Qty-7
+
+     
+
+Options/Features:
+
+ 
+
+
+    Exact change mode when the machine can not make change correctly
+    Random (1 in every 5) it jams, takes the money and delivers no product
+    Change return function if customer decides not to purchase
+    Item out of stock lights
+    Password protected admin section for reports.
+    Machine maintenance mode to reset values to their default levels
+    Reports should show machine state, sales by soda, etc
+    Only accepts Nickels, Dimes, and Quarters up to $1.00 total
+    Coins used to purchase product can not be used for giving change
+    Assume only one user at a time is accessing your web-based soda machine
+    Must keep a text based log file of all transactions and include a view link in the admin section. The log should include date, time, product purchased and change given. Also include change return and random jams.
+
+
+
+*/
